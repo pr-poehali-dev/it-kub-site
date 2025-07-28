@@ -62,7 +62,7 @@ const Index = () => {
           <div className="flex justify-between items-center">
             <div className="flex items-center space-x-2">
               <div className="w-8 h-8 bg-gradient-to-r from-cosmic to-rocket rounded-full animate-pulse-glow"></div>
-              <h1 className="text-2xl font-bold">IT-КУБ</h1>
+              <h1 className="text-2xl font-bold">IT-Cube</h1>
             </div>
             <div className="hidden md:flex space-x-8">
               <a href="#courses" className="hover:text-cosmic transition-colors">Курсы</a>
@@ -81,17 +81,12 @@ const Index = () => {
           <div className="animate-float mb-8">
             <Icon name="Rocket" size={80} className="mx-auto text-rocket animate-rocket-launch" />
           </div>
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-cosmic via-sky to-rocket bg-clip-text text-transparent">
-            Покори космос программирования!
-          </h1> 
+          <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-cosmic via-sky to-rocket bg-clip-text text-transparent">Бесплатное IT-образование!</h1> 
           <p className="text-xl md:text-2xl mb-8 text-gray-300 max-w-3xl mx-auto">
             Детский центр IT-КУБ — место, где юные мечтатели становятся создателями будущего
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" className="bg-gradient-to-r from-cosmic to-cosmic-dark hover:from-cosmic-dark hover:to-cosmic text-white border-0 animate-pulse-glow">
-              <Icon name="Star" size={20} className="mr-2" />
-              Начать путешествие
-            </Button>
+            <Button size="lg" className="bg-gradient-to-r from-cosmic to-cosmic-dark hover:from-cosmic-dark hover:to-cosmic text-white border-0 animate-pulse-glow">Записаться</Button>
             <Button size="lg" variant="outline" className="border-sky text-sky hover:bg-sky hover:text-space">
               <Icon name="Play" size={20} className="mr-2" />
               Смотреть видео
